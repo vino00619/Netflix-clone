@@ -1,0 +1,118 @@
+body {
+    padding: 18px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url("bg-poster.png");
+    background-repeat:no-repeat;
+}
+.nav-logo {
+    width: 9rem;
+}
+
+.row-header{
+    display: flex;
+    justify-content: space-between;
+}
+.form-inline {
+    border-radius: 100px;
+}
+
+.btns {
+    text-align: right;
+    border: 3px;
+    
+  }
+
+.search-btn {
+    background-color: #e50914;
+    color: white;
+    font-size: 14px;
+    line-height: normal;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: black;
+    height: 35px;
+    width: 75px;
+}
+
+#lang {
+    background-color: #000000;
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+    height: 31px;
+    width: 90px;
+}
+
+.poster {
+    /* margin-left: 10rem; */
+    text-align: center;
+  border: 3px;
+  padding: 11rem 15rem;
+  /* background-color: black; */
+  height: 33rem;
+  font-weight: 20px;
+}
+
+.poster2 {
+    
+    margin-left: 10px;
+}
+
+hr {
+    /* width: 100%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b7d0e2;
+    border: 0 none; */
+    margin: 30px -20px 20px;
+    border: 0;
+    /* border-top: 1px solid #c9c7c7; */
+    height: 8px;
+    background-color: #525353;
+}
+
+#big {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#med {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 24px;
+    font-weight:400;
+    padding-bottom: 18px;
+}
+
+#small {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 13px;
+}
+
+#get-btn {
+    background-color: #e50914;
+    color: white;
+    font-size: 14px;
+    line-height: normal;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: black;
+    
+    width: 100px;
+}
+#email {
+    width: 30rem;
+}
+
+#get-btn {
+    width: 8rem;
+}
+
+#email, #get-btn {
+    height: 55px; 
+
+}
